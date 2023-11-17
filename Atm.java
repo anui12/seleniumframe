@@ -7,7 +7,7 @@ class Atm
 		
 		
 		System.out.println("hello world");
-		
+		System.out.println("Pull from github to eclipse")
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter name");

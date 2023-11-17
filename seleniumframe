@@ -15,6 +15,8 @@ public class getcurrenturl {
 //		System.out.println(actualurl);
 		System.out.println(actualtitle);
 //		d.close();
+
+		System.out.println("Hello world");
 		d.quit();
 	}
 }

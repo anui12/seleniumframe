@@ -17,6 +17,8 @@ public class getcurrenturl {
 //		d.close();
 
 		System.out.println("Hello world");
+		System.out.println("Push to github");
+		
 		d.quit();
 	}
 }

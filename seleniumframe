@@ -1,0 +1,20 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class getcurrenturl {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		ChromeDriver d=new ChromeDriver();
+		d.get("https://demo.vtiger.com/vtigercrm/");
+		Thread.sleep(2000);
+		d.findElement(By.xpath("//button[text()='Sign in']")).click();
+		Thread.sleep(2000);
+		String actualtitle = d.getTitle();
+//		String actualurl = d.getCurrentUrl();
+//		System.out.println(actualurl);
+		System.out.println(actualtitle);
+//		d.close();
+		d.quit();
+	}
+}
